@@ -1,29 +1,31 @@
-  # Practice in Class 8: Diff, rollback, blame, patching code, updates<br>
-## Branch the project into different branches  (see example below)<br>
-<img width="1440" alt="Screen Shot 2022-05-26 at 8 48 12 PM" src="images/Assignment8/creatingNewBranch.png"><br><hr><br>
+  # Assignment 8: Managing a Specific Change<br>
+## Use "git pull" to update your local repository with the latest version of the group's project (see example below)<br>
+<img width="1440" alt="Screen Shot 2022-05-26 at 8 48 12 PM" src="images/Assignment_8/gitPull.png"><br><hr><br>
 
-## and then make a small change. (adding a button for "c++" and a footer at the end)<br>
-<img width="1440" alt="Screen Shot 2022-05-26 at 8 48 12 PM" src="images/Assignment8/editingInNano.png"><br>
-## add and commit the changes. (adding a button for "c++" and a footer at the end)<br>
-<img width="1440" alt="Screen Shot 2022-05-26 at 8 48 12 PM" src="images/Assignment8/commitChanges.png"><br><hr><br>
+## Make a branch with "git branch"<br>
+<img width="1440" alt="Screen Shot 2022-05-26 at 8 48 12 PM" src="images/Assignment_8/new-branch.png"><br>
+## and modify at least one file from the group's project. (adding a button and new paragraph tag)<br>
+<img width="1440" alt="Screen Shot 2022-05-26 at 8 48 12 PM" src="images/Assignment_8/changes.png"><br><hr><br>
 
-## Run git diff (or some version of git diff) to determine the differences in the two branches. (see example below)<br>
-<img width="1440" alt="Screen Shot 2022-05-26 at 8 48 12 PM" src="images/Assignment8/gitdiff.png"><br><hr><br>
+## Run a diff command (git diff) to document what is different between your version of the file and the previous version (see example below)<br>
+<img width="1440" alt="Screen Shot 2022-05-26 at 8 48 12 PM" src="images/Assignment_8/gitDiff.png"><br><hr><br>
 
-## To reverse the last change that was made use the "git revert" command (see example below) <br>
-<img width="1440" alt="Screen Shot 2022-05-26 at 8 48 12 PM" src="images/Assignment8/gitRevert.png"><br><hr><br>
+## Merge your change into the group's project. Step 1 use "git add" (see example below) <br>
+<img width="1440" alt="Screen Shot 2022-05-26 at 8 48 12 PM" src="images/Assignment_8/gitAdd.png"><br><hr><br>
 
-## to check log for reversed changes use the "git log" command (see example below) <br>
-<img width="1440" alt="Screen Shot 2022-05-26 at 8 48 12 PM" src="images/Assignment8/gitLog.png"><br><hr><br>
+## Step 2 commit. Use "git commit"(see example below) <br>
+<img width="1440" alt="Screen Shot 2022-05-26 at 8 48 12 PM" src="images/Assignment_8/gitCommit.png"><br><hr><br>
 
-## To find out who made a change to your group's project use "git blame" (see example below) <br>
-<img width="1440" alt="Screen Shot 2022-05-26 at 8 48 12 PM" src="images/Assignment8/gitBlame.png"><hr>
-<img width="1440" alt="Screen Shot 2022-05-26 at 8 48 12 PM" src="images/Assignment8/gitBlame2.png"><br><hr><br>
+## Step 3 merge to main (switch to the main branch and use "git merge")(see example below) <br>
+<img width="1440" alt="Screen Shot 2022-05-26 at 8 48 12 PM" src="images/Assignment_8/gitMerge.png"><br><hr><br>
 
-## to create a git patch file use "git diff" command and copy all changes to the patch file (see example below) <br>
-<img width="1440" alt="Screen Shot 2022-05-26 at 8 48 12 PM" src="images/Assignment8/gitPatch.png"><br><hr><br>
+## Step 4 push to remote repo. Use "git push"(see example below) <br>
+<img width="1440" alt="Screen Shot 2022-05-26 at 8 48 12 PM" src="images/Assignment_8/gitPush.png"><br><hr><br>
 
-## To update your local repository with the latest version of the group project code use the "git pull" command (see example below) <br>
-<img width="1440" alt="Screen Shot 2022-05-26 at 8 48 12 PM" src="images/Assignment8/gitPull.png"><br><hr><br>
+## Step 5 check log. Use "git log" (see example below) <br>
+<img width="1440" alt="Screen Shot 2022-05-26 at 8 48 12 PM" src="images/Assignment_8/gitLog1.png"><br><hr><br>
 
-## The local repository is up to date so no changes are made.<br>
+## Finally, reverse your changes. Use "git revert" command (see example below) <br>
+<img width="1440" alt="Screen Shot 2022-05-26 at 8 48 12 PM" src="images/Assignment_8/gitRevert.png"><br><hr><br>
+## Check log one last time to confirm reversed changes (see example below) <br>
+<img width="1440" alt="Screen Shot 2022-05-26 at 8 48 12 PM" src="images/Assignment_8/gitLog2.png"><br><hr><br>
