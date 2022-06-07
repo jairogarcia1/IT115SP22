@@ -7,7 +7,7 @@
 ## and modify at least one file from the group's project. (adding a button and new paragraph tag)<br>
 <img width="1440" alt="Screen Shot 2022-05-26 at 8 48 12 PM" src="images/Assignment_8/changes.png"><br><hr><br>
 
-## Run a diff command (git diff) to document what is different between your version of the file and the previous version (see example below)<br>
+## Run a diff command (git diff) to document what is difference between your version of the file and the previous version (see example below)<br>
 <img width="1440" alt="Screen Shot 2022-05-26 at 8 48 12 PM" src="images/Assignment_8/gitDiff.png"><br><hr><br>
 
 ## Merge your change into the group's project. Step 1 use "git add" (see example below) <br>
@@ -16,7 +16,7 @@
 ## Step 2 commit. Use "git commit"(see example below) <br>
 <img width="1440" alt="Screen Shot 2022-05-26 at 8 48 12 PM" src="images/Assignment_8/gitCommit.png"><br><hr><br>
 
-## Step 3 merge to main (switch to the main branch and use "git merge")(see example below) <br>
+## Step 3 merge to main (switch to the main branch and use "git merge")<br>(see example below) <br>
 <img width="1440" alt="Screen Shot 2022-05-26 at 8 48 12 PM" src="images/Assignment_8/gitMerge.png"><br><hr><br>
 
 ## Step 4 push to remote repo. Use "git push"(see example below) <br>
